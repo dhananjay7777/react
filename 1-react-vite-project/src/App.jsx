@@ -19,6 +19,8 @@ function App() {
             enhance our application. Libraries are more flexible than
             frameworks.
          </p>
+         <br />
+         The End.
       </h1>
    );
 }
