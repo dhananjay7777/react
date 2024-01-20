@@ -14,7 +14,10 @@ function App() {
          <p>
             Library is a collection of code that can be reused by other
             programs. It doesn't dictate overall structure and flow of program.
-            Libraries are more flexible than frameworks.
+            It provides specfic functionality that can be called by an
+            apllication. We can select components or functions from a library to
+            enhance our application. Libraries are more flexible than
+            frameworks.
          </p>
       </h1>
    );
