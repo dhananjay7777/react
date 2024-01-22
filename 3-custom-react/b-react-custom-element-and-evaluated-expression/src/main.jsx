@@ -20,6 +20,13 @@ const anotherElement = (
 
 const justText = " pnxLLLLLLLLLLLLLLLLLLLLLLLLLLL."; // this text is added as link in line 29. Alse a evaluated expression
 
+// React.createElement to create a React element. React.createElement is a method in React that is often used to create virtual DOM elements.
+
+// The first argument is the type of the element. In this case, it's the string "a", indicating that the element being created is an anchor (<a>) element.
+
+// The second argument is an object representing the properties (or attributes) of the element. It includes the target attribute set to "_blank" and the href attribute set to "https://google.co.in".
+
+// The remaining arguments are the children of the element. In this case, there are two: a string, "click me to visit google", and a variable or expression named justText.
 const reactElement = React.createElement(
    "a",
    {
