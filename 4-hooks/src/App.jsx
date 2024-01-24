@@ -30,6 +30,26 @@ function App() {
       if (counter >= 20) {
          setCounter(counter + 0);
       }
+
+      //------------------------------------------------------------------------------------------------------
+      // Q. if we write 4 setcounter function as above what will happen if we click?
+      // Ans: If we click, it will give 1 only as the function calls will be sent in batches. So, react will
+      // see them as the same operation and perform it only once. So, the counter will increase by only 1 count.
+      setCounter(counter + 1);
+      setCounter(counter + 1);
+      setCounter(counter + 1);
+      //output: 1
+
+      //------------------------------------------------------------------------------------------------------
+
+      // Q. How to increase it by 4?
+      // Ans. To increase it by four counts, use the callback which the setCounter accepts and increase it one by one. So, the first function
+      // will be called first, the callback will be executed and the next function call will be executed then third and so on.
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      setCounter((prevCounter) => prevCounter + 1);
+      //output: 4
+      //--------------------------------------------------------------------------------------------------
    };
 
    const subtractValue = () => {
