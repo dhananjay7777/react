@@ -17,6 +17,7 @@ function App() {
             Tailwind Test
          </h1>
 
+         {/* userName and btnText are arguments passed by parent to child */}
          <Card
             userName="dukeheLLLLLLLLLLL."
             btnText="HAHAHHAHAHAHA." /*someObj={myObj} arr={myARR} this is passing value in components*/
