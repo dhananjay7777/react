@@ -11,6 +11,7 @@ function UseRefHook() {
    function reset() {
       setName("");
       refEle.current.focus(); //this will focus on input field even when we click the rest button.
+      console.log(refEle.current.value);
    }
 
    function copy() {

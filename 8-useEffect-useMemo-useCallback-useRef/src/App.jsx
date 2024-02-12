@@ -9,8 +9,8 @@ function App() {
       <>
          {/* <UseEffectExplain /> */}
          {/* <UseMemoHook /> */}
-         {/* <UseCallBackHook /> */}
-         <UseRefHook />
+         <UseCallBackHook />
+         {/* <UseRefHook /> */}
       </>
    );
 }

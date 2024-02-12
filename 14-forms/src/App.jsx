@@ -26,9 +26,9 @@ function App() {
    return (
       <>
          <form className="form1">
+            {/* A:- Controlled Components: Components controlled by React */}
             <label>FirstName: </label>
             <input type="text" defaultValue={"John"} /> <br />
-            {/* A:- Controlled Components: Components controlled by React */}
             {/* 1) instead of default value, if we only write value it will give error:
             Warning: A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which hould not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://reactjs.org/link/controlled-components*/}
             {/* --------------------------------------------------------------------------------------------------------- */}
