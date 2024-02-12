@@ -35,11 +35,9 @@ function App() {
          <h3>{result}</h3>
          <h3>{team}</h3>
 
-         <ul>
-            {items.map((item) => (
-               <li key={item.id}>{item.name}</li>
-            ))}
-         </ul>
+         {items.map((item) => (
+            <li key={item.id}>{item.name}</li>
+         ))}
       </>
    );
 }
